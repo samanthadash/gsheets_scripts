@@ -32,14 +32,14 @@ function setUpPartybotMessage() {
 
 function getChannel() {
  if(isTest()) {
- return "@samantha"; // Replace with test user
+ return "@xxxxx"; // Replace with test user
  } else {
- return "#party-committee"; // Replace with Slack channel for when the bot is ready
+ return "#xxxxx"; // Replace with Slack channel for when the bot is ready
  }
 }
   
 function sendNewMessage(row) {
-  var slack_webhook = "https://hooks.slack.com/services/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"; // Replace with incoming webhook
+  var slack_webhook = "https://hooks.slack.com/services/xxxxx"; // Replace with incoming webhook
   var channel = getChannel(); // Verify whether this is a test
   var sheetURL = SpreadsheetApp.getActiveSpreadsheet().getUrl(); // Gets the spreadsheet link
 
